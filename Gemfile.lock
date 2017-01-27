@@ -1,0 +1,49 @@
+PATH
+  remote: .
+  specs:
+    fluent-plugin-split-event (0.1.0)
+      fluentd
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cool.io (1.4.6)
+    fluentd (0.14.11)
+      cool.io (~> 1.4.5)
+      http_parser.rb (>= 0.5.1, < 0.7.0)
+      msgpack (>= 0.7.0, < 2.0.0)
+      serverengine (>= 2.0.4, < 3.0.0)
+      sigdump (~> 0.2.2)
+      strptime (~> 0.1.7)
+      tzinfo (~> 1.0)
+      tzinfo-data (~> 1.0)
+      yajl-ruby (~> 1.0)
+    http_parser.rb (0.6.0)
+    msgpack (1.0.3)
+    power_assert (0.4.1)
+    rake (11.3.0)
+    serverengine (2.0.4)
+      sigdump (~> 0.2.2)
+    sigdump (0.2.4)
+    strptime (0.1.9)
+    test-unit (3.2.3)
+      power_assert
+    thread_safe (0.3.5)
+    timecop (0.8.1)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    tzinfo-data (1.2016.10)
+      tzinfo (>= 1.0.0)
+    yajl-ruby (1.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fluent-plugin-split-event!
+  rake (~> 11.0)
+  test-unit (~> 3.2)
+  timecop (~> 0.3)
+
+BUNDLED WITH
+   1.13.6
